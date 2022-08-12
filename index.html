@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/glightbox.min.css">
 </head>
 <body>
     <!-- Preloader -->
@@ -99,7 +100,7 @@
                                 </span>
                                 <h4>Welcome to</h4>
                                 <h1>Carmen! Carmen!</h1>
-                                <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Book an Appointment</span></a> </div>
+                                <div class="butn-light mt-30 mb-30"> <a href="https://online-booking.salonbiz.com/olb/!page.widget_start?wbid=c1310t201507272022p56588K3knz75fwz3fBf7&theme=1125&p_large=y&p_start=1" data-scroll-nav="1" class="glightbox" data-glightbox="width: 1000; height: 800;"><span>Book an Appointment</span></a> </div>
                             </div>
                         </div>
                     </div>
@@ -959,5 +960,11 @@
     <script src="js/datepicker.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script>
+  		var lightboxInlineIframe = GLightbox({
+  			selector: '.glightbox'
+  		});
+  	</script>
 </body>
 </html>

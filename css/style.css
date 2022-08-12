@@ -1073,6 +1073,7 @@ color: #aa8453;
     .logo-wrapper {
         float: left;
         padding: 15px;
+        margin-bottom: 3;
     }
     .nav-scroll .logo-wrapper {
         padding: 15px;

@@ -1072,7 +1072,7 @@ color: #aa8453;
     }
     .logo-wrapper {
         float: left;
-        padding: 15px;
+        /* padding: 15px; */
         margin-bottom: 3;
     }
     .nav-scroll .logo-wrapper {
@@ -1303,14 +1303,14 @@ hr {
 .header div.reservation {
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
-    writing-mode: vertical-lr;
-    -webkit-transform: rotate(180deg);
+    writing-mode: horizontal-lr;
+    /* -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    text-orientation: sideways;
-    text-orientation: sideways;
+    transform: rotate(180deg); */
+    /* text-orientation: sideways;
+    text-orientation: sideways; */
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 40px;
     height: 60%;
